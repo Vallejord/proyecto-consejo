@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -7,9 +7,10 @@
   <meta name="author" content="Agustin y Ezequiel">
   <link rel="icon" href="favicon.ico">
 
-  <title>Participación ciudadana nuevo</title>
+  <title>Participación ciudadana</title>
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap-1.1.1.min.css">
 
   <!-- Custom styles for this template -->
   <link href="css/main.css" rel="stylesheet">
@@ -24,7 +25,6 @@
     <div class="container">
       <nav class="nav blog-nav">
         <a class="nav-link active" href="#">Home</a>
-        <a class="nav-link" href="#">Sesiones</a>
         <div class="dropdown">
          <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu1" data-toggle="dropdown"
         aria-haspopup="true" aria-expanded="false">Archivo</a>
@@ -36,39 +36,42 @@
         <a class="nav-link" href="#" id="loginBtn" style="text-align: right">Log In</a>
         <span id="user">
         </span>
-        
+
 
       </nav>
-      
+
     </div>
   </div>
 
-  <div class="blog-header">
+  <!--<div class="blog-header">
     <div class="container">
       <h1 class="blog-title">Participación ciudadana</h1>
       <p class="lead blog-description">Sesiones del consejo</p>
     </div>
-  </div>
+  </div>-->
 
   <div class="container">
     <div class="row">
       <div class="col ">
           <h2 class="blog-post-title">Sesión 20/05/2017</h2>
-          <p class="blog-post-meta" >20, mayo 2017 by <a href="#">Agustin y Ezequiel</a></p>
+          <!--<p class="blog-post-meta" >20, mayo 2017 by <a href="#">Agustin y Ezequiel</a></p>-->
       </div>
     </div>
 
     <div class="row">
 
-      <div class="col-sm-8 blog-main">
+      <div class="col-sm-12 blog-main">
 
         <div class="blog-post">
-          <!-- <h2 class="blog-post-title">Sesión 20/05/2017</h2>
-          <p class="blog-post-meta" >20, mayo 2017 by <a href="#">Agustin y Ezequiel</a></p>-->
+          <!--<h2 class="blog-post-title">Sesión 20/05/2017</h2>-->
+          <!--<p class="blog-post-meta" >20, mayo 2017 by <a href="#">Agustin y Ezequiel</a></p>-->
 
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/aCMbSyngXB4" frameborder="0" allowfullscreen></iframe>
-          <br><br>
-          
+          <iframe width="100%" height="450" src="https://www.youtube.com/embed/aCMbSyngXB4" frameborder="0" allowfullscreen></iframe>
+
+        </div>
+      </div>
+    </div>
+
           <!-- BORRAR<h3>Temas:</h3>
           <ul class="temas">
             <li><a href="">Residuos (10:01)</a> <a href="#comentar15m1s" class="btn btn-sm btn-primary"><span class="badge badge-info">10</span> comentarios
@@ -78,7 +81,8 @@
             <li><a href="">Iluminacion (15:50)</a> <a href="#comentar15m1s" class="btn btn-sm btn-primary"><span class="badge badge-info">1</span> comentarios
 </a></li>
           </ul>-->
-          <br><br>
+
+
           <!--<h3>Comentarios</h3>-->
 
           <!--<div class="comentarios">-->
@@ -121,27 +125,78 @@
           </div>
         </div>-->
 
-        </div><!-- /.blog-post -->
+      <div class="row">
+        <div class="col-sm-9">
 
-      </div><!-- /.blog-main -->
+          <h2>Votación</h2>
+          <h5>Referencia:</h5>
+          <table class="table table-bordered">
+  <tbody>
+    <tr>
 
-      <div class="col-sm-3 offset-sm-1 blog-sidebar">
+      <td class="color-afir">afirmativo</td>
+      <td class="color-neg">negativo</td>
+      <td class="color-abs">abstención</td>
+      <td class="color-aus">ausente</td>
+    </tr>
+
+  </tbody>
+</table>
+          <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th>politico</th>
+      <th>Residuos</th>
+      <th>Seguridad</th>
+      <th>Iluminación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">juan perez -(Frente chica)</th>
+      <td class="color-afir"></td>
+      <td class="color-neg"></td>
+      <td class="color-afir"></td>
+    </tr>
+    <tr>
+      <th scope="row">Miguel lopez - (Partido verde)</th>
+      <td class="color-abs"></td>
+      <td class="color-neg"></td>
+      <td class="color-neg"></td>
+    </tr>
+    <tr>
+      <th scope="row">pedro gutierrez - (Partido rojo)</th>
+      <td class="color-aus"></td>
+      <td class="color-aus"></td>
+      <td class="color-aus"></td>
+    </tr>
+    <tr>
+      <th scope="row">claudio sosa - (trabajadores unidos)</th>
+      <td class="color-neg"></td>
+      <td class="color-abs"></td>
+      <td class="color-neg"></td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+
+      <div class="col-sm-3 blog-sidebar">
         <div class="sidebar-module sidebar-module-inset">
           <!-- codigonuevo-->
           <!--<h4>Sobre la sesión</h4>
           <p>Video de la ultima sesión del consejo</p>-->
           <h3>Temas:</h3>
           <ul class="temas">
-            <li><a href="">Residuos (10:01)</a> <a href="#comentar15m1s" class="btn btn-sm btn-primary"><span class="badge badge-info">10</span> comentarios
+            <li><a href="">Residuos (10:01)</a> <a href="#comentar15m1s" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModal"><span class="badge badge-info">10</span> comentarios
             </a></li>
-            
-            <li><a href="">Seguridad (15:01)</a> <a href="#comentar15m1s" class="btn btn-sm btn-primary"><span class="badge badge-info">2</span> comentarios
+
+            <li><a href="">Seguridad (15:01)</a> <a href="#comentar15m1s" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModal"><span class="badge badge-info">2</span> comentarios
             </a></li>
-            
-            <li><a href="">Iluminacion (15:50)</a> <a href="#comentar15m1s" class="btn btn-sm btn-primary"><span class="badge badge-info">1</span> comentarios
+
+            <li><a href="">Iluminacion (15:50)</a> <a href="#comentar15m1s" class="btn btn-sm btn-primary" data-toggle="modal" data-target="#exampleModal"><span class="badge badge-info">1</span> comentarios
             </a></li>
           </ul>
-          
+
         </div>
         <div class="sidebar-module">
           <!--<h4>Archivo</h4>
@@ -164,10 +219,51 @@
 
   </div><!-- /.container -->
 
-  <footer class="blog-footer">
-    <p>Sesiones del consejo</p>
+  <footer class="blog-footer";
+          class="blog-post-meta">
+    <p>20, mayo 2017 by <a href="#">Agustin y Ezequiel</a></p>
   </footer>
 
+  <!-- Modal -->
+  <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Comentarios</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col">
+              <br>
+                <form class="form" id="fposts">
+                  <div class="form-group">
+                    <textarea name="body" class="form-control post-field" id="rbody" rows="3" cols="10" placeholder="escribí tu comentario"></textarea>
+                    <button type="submit" name="button" class="btn btn-sm btn-primary float-right">enviar</button>
+                  </div>
+                </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col">
+                <h5><strong>Ultimos comentarios</strong></h5>
+                <div id="recent-posts-list">
+                  <div class="posts-container">
+                    <div id="mis-posts"></div>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!--<div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>-->
+      </div>
+    </div>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" ></script>
