@@ -4,7 +4,7 @@
     apiKey: "AIzaSyAZamzz-laOHL6cG6UHDfFofnhc5qwwfRk",
     authDomain: "web-consejo.firebaseapp.com",
     databaseURL: "https://web-consejo.firebaseio.com",
-    projectId: "web-consejo",
+    projectId: "tu consejo",
     storageBucket: "web-consejo.appspot.com",
     messagingSenderId: "682982771183"
   };
@@ -109,7 +109,7 @@
       } else {
         // User is signed out.
         $('#loginBtn').text('Iniciar sesión');
-        if(currLoc != 'index.html') window.location.href = 'index.html';
+        if(currLoc != 'index.php') window.location.href = 'index.php';
       }
       document.getElementById('loginBtn').disabled = false;
     });
